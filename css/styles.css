@@ -1,6 +1,6 @@
-/* цвет основного текста #212121 */
+/* цвет основного текста  #757575 */
 
-/* вторичный цвет текста #757575 */
+/* вторичный цвет текста #212121 */
 
 /* цвет лого #000000 */
 
@@ -10,6 +10,8 @@
 
 /* вторичный цвет фона  #F5F4FA */
 
+/*  */
+
 :root {
   --primary-text-color: #757575;
   --first-title-text-color: #212121;
@@ -18,7 +20,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: rgb(219, 214, 214);
   color: #757575;
 }
 
@@ -26,18 +28,18 @@ ul {
   list-style: none;
 }
 
-.logo1 {
+.main-logo {
   color: #2196f3;
 }
 
-.logo2 {
+.second-logo {
   color: #000000;
 }
 
 /* site nav */
 
 .site-nav .link {
-  color: var(--firts-title-text-color);
+  color: var(--first-title-text-color);
 }
 
 .site-nav .link:hover,
