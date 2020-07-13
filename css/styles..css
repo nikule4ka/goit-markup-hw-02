@@ -1,9 +1,66 @@
-/* Применится ко всем абзацам на странице */
-p {
-  font-size: 24px;
+/* цвет основного текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* цвет лого #000000 */
+
+/* белый #FFFFFF */
+
+/* акцент #2196F3  */
+
+/* вторичный цвет фона  #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --first-title-text-color: #212121;
+  --accent-color: #2196f3;
+  --second-title-color: #ffffff;
 }
 
-/* Применится ко всем ссылкам на странице */
-a {
-  text-decoration: none;
+body {
+  background-color: grey;
+  color: #757575;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo1 {
+  color: #2196f3;
+}
+
+.logo2 {
+  color: #000000;
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: var(--firts-title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: #000000;
+}
+
+.section-title {
+  color: var(--first-title-text-color);
+}
+
+/* about us */
+.about-us .title {
+  color: var(--first-title-text-color);
+}
+
+/* Work section */
+
+.work-list .title {
+  color: var(--second-title-color);
 }
