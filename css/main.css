@@ -12,39 +12,8 @@
 
 /*  */
 
-:root {
-  --primary-text-color: #757575;
-  --first-title-text-color: #212121;
-  --accent-color: #2196f3;
-  --second-title-color: #ffffff;
-}
-
-body {
-  background-color: rgb(219, 214, 214);
-  color: #757575;
-}
-
 ul {
   list-style: none;
-}
-
-.main-logo {
-  color: #2196f3;
-}
-
-.second-logo {
-  color: #000000;
-}
-
-/* site nav */
-
-.site-nav .link {
-  color: var(--first-title-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
 }
 
 /* Hero */
