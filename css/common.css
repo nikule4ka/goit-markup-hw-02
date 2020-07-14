@@ -1,12 +1,29 @@
+/* цвет основного текста  #757575 */
+
+/* вторичный цвет текста #212121 */
+
+/* цвет лого #000000 */
+
+/* белый #FFFFFF */
+
+/* акцент #2196F3  */
+
+/* вторичный цвет фона  #F5F4FA */
+
+/* цвет фона футера #2F303A  */
+
 :root {
   --primary-text-color: #757575;
   --first-title-text-color: #212121;
   --accent-color: #2196f3;
-  --second-title-color: #ffffff;
+  --primary-white-color: #ffffff;
+  --second-bg-color: #f5f4fa;
+  --bg-color-footer: #2f303a;
 }
-/* стили для index.html */
+
+/* main styles */
 body {
-  background-color: rgb(219, 214, 214);
+  background-color: #ece9ff;
   color: #757575;
 }
 
@@ -19,8 +36,15 @@ body {
   color: #000000;
 }
 
-/* site nav */
+.third-logo {
+  color: var(--primary-white-color);
+}
 
+ul {
+  list-style: none;
+}
+
+/* site nav */
 .site-nav .link {
   color: var(--first-title-text-color);
 }
@@ -30,4 +54,10 @@ body {
   color: var(--accent-color);
 }
 
-/* стили для portfolio */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.section-title {
+  color: var(--first-title-text-color);
+}

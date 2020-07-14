@@ -1,28 +1,18 @@
-/* цвет основного текста  #757575 */
-
-/* вторичный цвет текста #212121 */
-
-/* цвет лого #000000 */
-
-/* белый #FFFFFF */
-
-/* акцент #2196F3  */
-
-/* вторичный цвет фона  #F5F4FA */
-
-/*  */
-
-ul {
-  list-style: none;
-}
+/* стили для index.html */
 
 /* Hero */
 .hero-title {
-  color: #000000;
+  color: var(--primary-white-color);
 }
 
-.section-title {
-  color: var(--first-title-text-color);
+/* Button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.link.primary {
+  color: var(--accent-color);
 }
 
 /* about us */
@@ -31,7 +21,20 @@ ul {
 }
 
 /* Work section */
-
 .work-list .title {
-  color: var(--second-title-color);
+  color: var(--primary-white-color);
 }
+
+.our-team {
+  background-color: var(--primary-white-color);
+}
+
+/* Footer section */
+.bg-footer {
+  background-color: var(--bg-color-footer);
+}
+
+.site-nav.contact {
+  color: var(--primary-white-color);
+}
+/* стили для portfolio */
