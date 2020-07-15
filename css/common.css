@@ -16,16 +16,16 @@
   --primary-text-color: #757575;
   --first-title-text-color: #212121;
   --accent-color: #2196f3;
-  --logo-color: #000000
   --primary-white-color: #ffffff;
   --second-bg-color: #f5f4fa;
   --bg-color-footer: #2f303a;
+  --second-logo-color: #000000;
 }
 
 /* main styles */
 body {
   background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  color: var(-);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .logo.second {
-  color: var(--logo-color);
+  color: var(--second-logo-color);
 }
 
 .logo.white {
