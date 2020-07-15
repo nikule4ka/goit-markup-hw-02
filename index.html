@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -15,8 +19,8 @@
       <nav>
         <!-- логотип компании -->
         <a href="./">
-          <span class="main-logo">Web</span>
-          <span class="second-logo">Studio</span>
+          <span class="logo main">Web</span>
+          <span class="logo second">Studio</span>
         </a>
 
         <!-- ссылки на другие страницы -->
@@ -28,10 +32,10 @@
         </ul>
 
         <address class="site-nav">
-          <a href="mailto:info@devstudio.com" class="link"
+          <a href="mailto:info@devstudio.com" class="contacts"
             >info@devstudio.com</a
           >
-          <a href="tel:+380961111111" class="link">+380961111111</a>
+          <a href="tel:+380961111111" class="contacts">+380961111111</a>
         </address>
       </nav>
     </header>
@@ -51,7 +55,7 @@
           <li>
             <img src="./images/antenna-1.svg" alt="антенна" />
             <h3 class="title">Внимание к деталям</h3>
-            <p>
+            <p class="content">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -59,7 +63,7 @@
           <li>
             <img src="./images/clock-1.svg" alt="часы" />
             <h3 class="title">Пунктуальность</h3>
-            <p>
+            <p class="content">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -67,7 +71,7 @@
           <li>
             <img src="./images/diagram-1.svg" alt="диаграмма" />
             <h3 class="title">Планирование</h3>
-            <p>
+            <p class="content">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -75,7 +79,7 @@
           <li>
             <img src="./images/astronaut-1.svg" alt="астронавт" />
             <h3 class="title">Современные технологии</h3>
-            <p>
+            <p class="content">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -84,7 +88,7 @@
       </section>
 
       <!-- Work section -->
-      <section class="section">
+      <section class="section work">
         <h2 class="section-title">Чем мы занимаемся</h2>
 
         <ul class="work-list">
@@ -122,7 +126,7 @@
                 alt="дизайнер"
                 width="270"
               />
-              <h3 class="section-title">Николай Кучеренко</h3>
+              <h3 class="author-title">Николай Кучеренко</h3>
               <p>Product Designer</p>
               <ul>
                 <li>
@@ -140,8 +144,8 @@
                 alt="фронтенд разработчик"
                 width="270"
               />
-              <h3 class="section-title">Ольга Иванова</h3>
-              <p>Frontend Developer</p>
+              <h3 class="author-title">Ольга Иванова</h3>
+              <p class="author-text">Frontend Developer</p>
               <ul>
                 <li>
                   <a href="" aria-label="ссылка на Instagram">Instagram</a>
@@ -154,8 +158,8 @@
 
             <li>
               <img src="./images/Marketing.jpg" alt="Маркетинг" width="270" />
-              <h3 class="section-title">Андрей Шевченко</h3>
-              <p>Marketing</p>
+              <h3 class="author-title">Андрей Шевченко</h3>
+              <p class="author-text">Marketing</p>
               <ul>
                 <li>
                   <a href="" aria-label="ссылка на Instagram">Instagram</a>
@@ -168,8 +172,8 @@
 
             <li>
               <img src="./images/UI-Designer.jpg" alt="дизайнер" width="270" />
-              <h3 class="section-title">Иван Николаев</h3>
-              <p>UI Designer</p>
+              <h3 class="author-title">Иван Николаев</h3>
+              <p class="author-text">UI Designer</p>
               <ul>
                 <li>
                   <a href="" aria-label="ссылка на Instagram">Instagram</a>
@@ -232,25 +236,26 @@
       <div>
         <!-- логотип компании -->
         <a href="./">
-          <span class="main-logo">Web</span>
-          <span class="third-logo">Studio</span>
+          <span class="logo main">Web</span>
+          <span class="logo white">Studio</span>
         </a>
 
         <!-- e-mail and phone -->
         <address class="site-nav">
-          г. Киев, пр-т Леси Украинки, 26<br />
-          <a href="mailto:info@example.com" class="link contact"
+          <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+          <a href="mailto:info@example.com" class="footer-contacts"
             >info@example.com</a
           >
           <br />
-          <a href="tel:+380991111111" class="link contact">+38 099 111 11 11</a
+          <a href="tel:+380991111111" class="footer-contacts"
+            >+38 099 111 11 11</a
           ><br />
         </address>
       </div>
 
       <!-- соц сети -->
       <div>
-        <b>присоединяйтесь</b>
+        <b class="join-us">присоединяйтесь</b>
 
         <ul>
           <li><a href="" aria-label="ссылка на Instagram">Instagram</a></li>
@@ -262,7 +267,7 @@
 
       <!-- подписка -->
       <div>
-        <b>подпишитесь на рассылку</b>
+        <b class="join-us">подпишитесь на рассылку</b>
         <a href="" class="button">Подписаться</a>
       </div>
     </footer>
